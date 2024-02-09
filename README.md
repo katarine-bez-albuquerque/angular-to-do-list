@@ -3,7 +3,7 @@
 [![NPM License](https://img.shields.io/npm/l/react)](https://github.com/katarine-bez-albuquerque/angular-to-do-list/blob/main/LICENSE)
 
 
-<img border="1" width="100%" src="./imagens/banner.png" alt="Banner"/>
+<img width="100%" src="./imagens/banner.png" alt="Banner"/>
 
 ## Sobre o projeto
 
@@ -26,7 +26,7 @@ I worked with header, footer and content components; dividing responsibilities.
 
 ## Layout Web
 
-<img border="1" width="250" src="./imagens/layout.png" alt="Layouts"/>
+<img width="250" src="./imagens/layout.png" alt="Layouts"/>
 
 ## Tecnologias Utilizadas
 
