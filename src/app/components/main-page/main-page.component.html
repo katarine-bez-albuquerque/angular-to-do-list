@@ -1,0 +1,19 @@
+<nav class="nav nav-top">
+    <form class="form">
+        <input type="text" name="text" [(ngModel)]="text">
+        <button type="button" (click)="createList(text)">Add</button>
+    </form>
+</nav>
+<main>
+    <p *ngIf="descriptions.length <= 0">There are no item(s) in the list</p>
+    <ul *ngFor="let item of descriptions">
+        <li *ngIf="item">            
+            {{ item.description }} &nbsp;<button type="button" (click)="removeOne(item)"><i class="icon fa fa-regular fa-trash"></i></button>
+        </li>
+    </ul>    
+</main>
+<nav class="nav nav-bottom">
+    <form class="form">        
+        <button type="button" (click)="removeAll()">Clear List</button>
+    </form>
+</nav>
